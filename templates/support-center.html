@@ -1,171 +1,129 @@
 <!-- Support Center Template for AT&T Knowledge Management API -->
 <!-- This template transforms JSON from services.att.com/kmservices/v2/contents/{{id}} into Edge Delivery Services HTML -->
+<!-- JSON Structure: { status, message, resultType, resultBody: { title, contentTypeProperties: { question, answer }, relatedContentList, tagSets, seoTitle, seoDesc, seoKey } } -->
 
+{{#resultBody}}
 <div>
   <!-- Main Content Section -->
   {{#title}}
   <h1>{{title}}</h1>
   {{/title}}
   
-  {{#description}}
-  <p class="description">{{description}}</p>
-  {{/description}}
-  
-  {{#summary}}
-  <p class="summary">{{summary}}</p>
-  {{/summary}}
-  
-  {{#content}}
-  <div class="content">
-    {{{content}}}
+  {{#contentTypeProperties}}
+  {{#question}}
+  <div class="faq-question">
+    <h2>{{question}}</h2>
   </div>
-  {{/content}}
+  {{/question}}
   
-  {{#body}}
-  <div class="body">
-    {{{body}}}
+  {{#answer}}
+  <div class="faq-answer">
+    {{{answer}}}
   </div>
-  {{/body}}
-  
-  {{#htmlContent}}
-  <div class="html-content">
-    {{{htmlContent}}}
-  </div>
-  {{/htmlContent}}
+  {{/answer}}
+  {{/contentTypeProperties}}
 </div>
 
-{{#sections}}
+{{#relatedContentList}}
 <div>
-  <!-- Section: {{title}} -->
-  {{#title}}
-  <h2>{{title}}</h2>
-  {{/title}}
-  
-  {{#content}}
-  <div>
-    {{{content}}}
-  </div>
-  {{/content}}
-  
-  {{#items}}
-  <div class="section-item">
-    {{#title}}<h3>{{title}}</h3>{{/title}}
-    {{#description}}<p>{{description}}</p>{{/description}}
-    {{#link}}<a href="{{link}}">{{#linkText}}{{linkText}}{{/linkText}}{{^linkText}}Learn more{{/linkText}}</a>{{/link}}
-  </div>
-  {{/items}}
-</div>
-{{/sections}}
-
-{{#topics}}
-<div>
-  <!-- Topics Section -->
-  <h2>Topics</h2>
-  <ul class="topics-list">
+  <!-- Related Content Section -->
+  <h2>Related Content</h2>
+  <ul class="related-content-list">
     {{#.}}
     <li>
-      {{#title}}<strong>{{title}}</strong>{{/title}}
-      {{#description}}<p>{{description}}</p>{{/description}}
-      {{#url}}<a href="{{url}}">View topic</a>{{/url}}
+      {{#value}}
+      <div class="related-content-item">
+        <!-- Note: value is a JSON string, displaying as-is. 
+             If you need to parse it, you may need to handle it in the JSON2HTML worker or use a different approach -->
+        <span>{{value}}</span>
+      </div>
+      {{/value}}
     </li>
     {{/.}}
   </ul>
 </div>
-{{/topics}}
+{{/relatedContentList}}
 
-{{#relatedLinks}}
+{{#tagSets}}
 <div>
-  <!-- Related Links Section -->
-  <h2>Related Links</h2>
-  <ul class="related-links">
-    {{#links}}
-    <li><a href="{{url}}">{{#title}}{{title}}{{/title}}{{^title}}{{url}}{{/title}}</a></li>
-    {{/links}}
-    {{^links}}
-    {{#.}}
-    <li><a href="{{url}}">{{#title}}{{title}}{{/title}}{{^title}}{{url}}{{/title}}</a></li>
-    {{/.}}
-    {{/links}}
-  </ul>
-</div>
-{{/relatedLinks}}
-
-{{#faqs}}
-<div>
-  <!-- FAQ Section -->
-  <h2>Frequently Asked Questions</h2>
-  <div class="faq-list">
-    {{#.}}
-    <div class="faq-item">
-      {{#question}}<h3>{{question}}</h3>{{/question}}
-      {{#answer}}<div class="faq-answer">{{{answer}}}</div>{{/answer}}
-    </div>
-    {{/.}}
+  <!-- Tags Section -->
+  {{#.}}
+  <div class="tags-section">
+    {{#displayTagName}}
+    <h3>{{displayTagName}}</h3>
+    {{/displayTagName}}
+    <ul class="tags-list">
+      {{#tags}}
+      <li class="tag-item">
+        {{#displayTagName}}
+        <span class="tag">{{displayTagName}}</span>
+        {{/displayTagName}}
+      </li>
+      {{/tags}}
+    </ul>
   </div>
+  {{/.}}
 </div>
-{{/faqs}}
-
-{{#popularSupport}}
-<div>
-  <!-- Popular Support Topics -->
-  <h2>Popular Support Topics</h2>
-  <div class="popular-support">
-    {{#items}}
-    <div class="support-item">
-      {{#title}}<h3>{{title}}</h3>{{/title}}
-      {{#description}}<p>{{description}}</p>{{/description}}
-      {{#url}}<a href="{{url}}">Learn more</a>{{/url}}
-    </div>
-    {{/items}}
-    {{^items}}
-    {{#.}}
-    <div class="support-item">
-      {{#title}}<h3>{{title}}</h3>{{/title}}
-      {{#description}}<p>{{description}}</p>{{/description}}
-      {{#url}}<a href="{{url}}">Learn more</a>{{/url}}
-    </div>
-    {{/.}}
-    {{/items}}
-  </div>
-</div>
-{{/popularSupport}}
+{{/tagSets}}
 
 <div>
   <!-- Metadata Section for Edge Delivery Services -->
   <div class="metadata">
+    {{#seoTitle}}
+    <div>
+      <div>title</div>
+      <div>{{seoTitle}}</div>
+    </div>
+    {{/seoTitle}}
+    {{^seoTitle}}
     {{#title}}
     <div>
       <div>title</div>
       <div>{{title}}</div>
     </div>
     {{/title}}
+    {{/seoTitle}}
     
-    {{#description}}
+    {{#seoDesc}}
     <div>
       <div>description</div>
-      <div>{{description}}</div>
+      <div>{{seoDesc}}</div>
     </div>
-    {{/description}}
+    {{/seoDesc}}
     
-    {{#summary}}
+    {{#seoKey}}
     <div>
-      <div>description</div>
-      <div>{{summary}}</div>
+      <div>tags</div>
+      <div>{{seoKey}}</div>
     </div>
-    {{/summary}}
+    {{/seoKey}}
     
+    {{#tagSets}}
+    {{#.}}
     {{#tags}}
+    {{#displayTagName}}
     <div>
       <div>tags</div>
-      <div>{{#.}}{{.}}{{^-last}}, {{/-last}}{{/.}}</div>
+      <div>{{displayTagName}}</div>
     </div>
+    {{/displayTagName}}
     {{/tags}}
+    {{/.}}
+    {{/tagSets}}
     
-    {{#keywords}}
+    {{#publishedDate}}
     <div>
-      <div>tags</div>
-      <div>{{#.}}{{.}}{{^-last}}, {{/-last}}{{/.}}</div>
+      <div>publishedDate</div>
+      <div>{{publishedDate}}</div>
     </div>
-    {{/keywords}}
+    {{/publishedDate}}
+    
+    {{#lastModifiedDate}}
+    <div>
+      <div>lastModifiedDate</div>
+      <div>{{lastModifiedDate}}</div>
+    </div>
+    {{/lastModifiedDate}}
   </div>
 </div>
+{{/resultBody}}
