@@ -1,34 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Home</title>
+    <title>{{resultBody.contentTypeProperties.question}}</title>
   </head>
   <body>
     <header></header>
     <main>
-      <div>
-        <div class="hero">
-          <div>
-            <div>
-              <p>
-                <picture>
-                  <img loading="lazy" alt="" src="myimage.jpg">
-                </picture>
-              </p>
-              <h1>Hello World</h1>
-            </div>
-          </div>
-        </div>
-        <p>Welcome to your website.</p>
-        <div class="metadata">
-          <div>
-            <div>
-              <p>Description</p>
-            </div>
-            <div>
-              <p>Page Description</p>
-            </div>
-          </div>
+      <div class="support-center">
+        <h1>{{resultBody.contentTypeProperties.question}}</h1>
+        <div class="answer">
+          {{{resultBody.contentTypeProperties.answer}}}
         </div>
       </div>
     </main>
