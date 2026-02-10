@@ -1,0 +1,62 @@
+{
+  "templates": [
+    {
+      "name": "product-page",
+      "description": "AT&T Business product pages with hero, benefits cards, features table, FAQ accordion, and resources. Typically includes video testimonials and contact sections.",
+      "urls": [
+        "https://www.business.att.com/products/iot-fleet-management.html"
+      ],
+      "blocks": [
+        {
+          "name": "hero",
+          "instances": [".marquee-heading", ".marquee-item"],
+          "section": "hero"
+        },
+        {
+          "name": "cards",
+          "instances": [".icon-list", ".product-card", ".content-teaser"],
+          "section": "benefits, plans, resources"
+        },
+        {
+          "name": "accordion",
+          "instances": [".accordion"],
+          "section": "faq"
+        },
+        {
+          "name": "embed",
+          "instances": [".marquee-play-icon-container", "[data-video]"],
+          "section": "video-testimonials"
+        }
+      ]
+    },
+    {
+      "name": "pricing-page",
+      "description": "AT&T Business pricing/plans pages with hero pricing info, feature cards, product sections, pricing comparison tables, FAQ accordion, and contact sections.",
+      "urls": [
+        "https://www.business.att.com/products/office-at-hand.html"
+      ],
+      "blocks": [
+        {
+          "name": "hero",
+          "instances": [".hero-banner", ".pricing-hero"],
+          "section": "hero"
+        },
+        {
+          "name": "cards",
+          "instances": [".feature-cards", ".product-card", ".offset-card"],
+          "section": "features, add-ons, benefits"
+        },
+        {
+          "name": "columns",
+          "instances": [".pricing-plans", ".plan-comparison"],
+          "section": "pricing"
+        },
+        {
+          "name": "accordion",
+          "instances": [".accordion", ".faq-section"],
+          "section": "faq"
+        }
+      ]
+    }
+  ]
+}

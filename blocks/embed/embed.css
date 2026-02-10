@@ -1,0 +1,9 @@
+.embed {
+  margin: 24px 0;
+}
+
+.embed iframe {
+  max-width: 800px;
+  margin: 0 auto;
+  display: block;
+}
