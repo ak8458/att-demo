@@ -1,0 +1,603 @@
+{
+    "status": "200",
+    "message": "Successfully Retrieved from KnowledgeManagementMS CACHE",
+    "resultType": "tagSetTree",
+    "resultBody": {
+      "parentTagName": "topic",
+      "systemTagName": "topic_globalmarketing",
+      "displayTagName": "Business Global Marketing",
+      "systemCode": "topic_globalmarketing",
+      "sequenceNumber": "00",
+      "childSeqNumber": "00",
+      "children": [
+        {
+          "parentTagName": "topic_globalmarketing",
+          "systemTagName": "topic_enterprisesupport",
+          "displayTagName": "Enterprise Support",
+          "systemCode": "topic_enterprisesupport",
+          "sequenceNumber": "01",
+          "childSeqNumber": "00",
+          "children": [
+            {
+              "parentTagName": "topic_enterprisesupport",
+              "systemTagName": "topic_billingandaccount",
+              "displayTagName": "Billing and Account",
+              "systemCode": "topic_billingandaccount",
+              "sequenceNumber": "01",
+              "childSeqNumber": "00",
+              "children": [
+                {
+                  "parentTagName": "topic_billingandaccount",
+                  "systemTagName": "topic_attbusinessdirectres",
+                  "displayTagName": "AT&T BusinessDirect resources",
+                  "systemCode": "topic_attbusinessdirectres",
+                  "sequenceNumber": "01",
+                  "childSeqNumber": "00"
+                },
+                {
+                  "parentTagName": "topic_billingandaccount",
+                  "systemTagName": "topic_attpremierresources",
+                  "displayTagName": "AT&T Premier resources",
+                  "systemCode": "topic_attpremierresources",
+                  "sequenceNumber": "02",
+                  "childSeqNumber": "01"
+                },
+                {
+                  "parentTagName": "topic_billingandaccount",
+                  "systemTagName": "topic_attbusinesscenter",
+                  "displayTagName": "AT&T Business Center resources",
+                  "systemCode": "topic_attbusinesscenter",
+                  "sequenceNumber": "03",
+                  "childSeqNumber": "02"
+                }
+              ]
+            },
+            {
+              "parentTagName": "topic_enterprisesupport",
+              "systemTagName": "topic_mobilityandwireless",
+              "displayTagName": "Mobility and Wireless",
+              "systemCode": "topic_mobilityandwireless",
+              "sequenceNumber": "02",
+              "childSeqNumber": "01"
+            },
+            {
+              "parentTagName": "topic_enterprisesupport",
+              "systemTagName": "topic_repairortroubleshoot",
+              "displayTagName": "Repair or Troubleshoot",
+              "systemCode": "topic_repairortroubleshoot",
+              "sequenceNumber": "03",
+              "childSeqNumber": "02"
+            },
+            {
+              "parentTagName": "topic_enterprisesupport",
+              "systemTagName": "topic_wirelineandipservice",
+              "displayTagName": "Wireline, TV, IP Services",
+              "systemCode": "topic_wirelineandipservice",
+              "sequenceNumber": "04",
+              "childSeqNumber": "03",
+              "children": [
+                {
+                  "parentTagName": "topic_wirelineandipservice",
+                  "systemTagName": "topic_advancedsolutionsent",
+                  "displayTagName": "Advanced Solutions Enterprise Care",
+                  "systemCode": "topic_advancedsolutionsent",
+                  "sequenceNumber": "04",
+                  "childSeqNumber": "00"
+                },
+                {
+                  "parentTagName": "topic_wirelineandipservice",
+                  "systemTagName": "topic_attconnect",
+                  "displayTagName": "AT&T Connect",
+                  "systemCode": "topic_attconnect",
+                  "sequenceNumber": "05",
+                  "childSeqNumber": "01"
+                },
+                {
+                  "parentTagName": "topic_wirelineandipservice",
+                  "systemTagName": "topic_attglobalnetworkclie",
+                  "displayTagName": "AT&T Global Network Client",
+                  "systemCode": "topic_attglobalnetworkclie",
+                  "sequenceNumber": "06",
+                  "childSeqNumber": "02"
+                },
+                {
+                  "parentTagName": "topic_wirelineandipservice",
+                  "systemTagName": "topic_directvforbusiness",
+                  "displayTagName": "DIRECTV for BUSINESS",
+                  "systemCode": "topic_directvforbusiness",
+                  "sequenceNumber": "07",
+                  "childSeqNumber": "03",
+                  "children": [
+                    {
+                      "parentTagName": "topic_directvforbusiness",
+                      "systemTagName": "topic_billingandaccount0",
+                      "displayTagName": "Billing and Account",
+                      "systemCode": "topic_billingandaccount0",
+                      "sequenceNumber": "00",
+                      "childSeqNumber": "00"
+                    },
+                    {
+                      "parentTagName": "topic_directvforbusiness",
+                      "systemTagName": "topic_programming",
+                      "displayTagName": "Programming",
+                      "systemCode": "topic_programming",
+                      "sequenceNumber": "01",
+                      "childSeqNumber": "01"
+                    },
+                    {
+                      "parentTagName": "topic_directvforbusiness",
+                      "systemTagName": "topic_troubleshootandrepai",
+                      "displayTagName": "Troubleshoot and Repair",
+                      "systemCode": "topic_troubleshootandrepai",
+                      "sequenceNumber": "02",
+                      "childSeqNumber": "02"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "parentTagName": "topic_globalmarketing",
+          "systemTagName": "topic_enterprisesupport20",
+          "displayTagName": "Enterprise Support 2.0",
+          "systemCode": "topic_enterprisesupport20",
+          "sequenceNumber": "02",
+          "childSeqNumber": "01",
+          "children": [
+            {
+              "parentTagName": "topic_enterprisesupport20",
+              "systemTagName": "topic_attbusinesscenter0",
+              "displayTagName": "AT&T Business Center",
+              "systemCode": "topic_attbusinesscenter0",
+              "sequenceNumber": "05",
+              "childSeqNumber": "00",
+              "children": [
+                {
+                  "parentTagName": "topic_attbusinesscenter0",
+                  "systemTagName": "topic_billingaccounts",
+                  "displayTagName": "Billing",
+                  "systemCode": "topic_billingaccounts",
+                  "sequenceNumber": "05",
+                  "childSeqNumber": "00"
+                },
+                {
+                  "parentTagName": "topic_attbusinesscenter0",
+                  "systemTagName": "topic_getstartedc",
+                  "displayTagName": "Get started",
+                  "systemCode": "topic_getstartedc",
+                  "sequenceNumber": "06",
+                  "childSeqNumber": "01"
+                },
+                {
+                  "parentTagName": "topic_attbusinesscenter0",
+                  "systemTagName": "topic_orders8",
+                  "displayTagName": "Orders",
+                  "systemCode": "topic_orders8",
+                  "sequenceNumber": "07",
+                  "childSeqNumber": "02"
+                },
+                {
+                  "parentTagName": "topic_attbusinesscenter0",
+                  "systemTagName": "topic_bcpayments",
+                  "displayTagName": "Payments",
+                  "systemCode": "topic_bcpayments",
+                  "sequenceNumber": "08",
+                  "childSeqNumber": "03"
+                },
+                {
+                  "parentTagName": "topic_attbusinesscenter0",
+                  "systemTagName": "topic_bcreporting",
+                  "displayTagName": "Reporting",
+                  "systemCode": "topic_bcreporting",
+                  "sequenceNumber": "09",
+                  "childSeqNumber": "04"
+                },
+                {
+                  "parentTagName": "topic_attbusinesscenter0",
+                  "systemTagName": "topic_troubleshootrepair",
+                  "displayTagName": "Troubleshoot & repair",
+                  "systemCode": "topic_troubleshootrepair",
+                  "sequenceNumber": "10",
+                  "childSeqNumber": "05"
+                }
+              ]
+            },
+            {
+              "parentTagName": "topic_enterprisesupport20",
+              "systemTagName": "dev_expressticketing",
+              "displayTagName": "Express Ticketing",
+              "systemCode": "dev_expressticketing",
+              "sequenceNumber": "06",
+              "childSeqNumber": "01",
+              "children": [
+                {
+                  "parentTagName": "dev_expressticketing",
+                  "systemTagName": "dev_etcreate",
+                  "displayTagName": "Create a Ticket",
+                  "systemCode": "dev_etcreate",
+                  "sequenceNumber": "11",
+                  "childSeqNumber": "00"
+                },
+                {
+                  "parentTagName": "dev_expressticketing",
+                  "systemTagName": "dev_etmanage",
+                  "displayTagName": "Manage your ticket",
+                  "systemCode": "dev_etmanage",
+                  "sequenceNumber": "12",
+                  "childSeqNumber": "01"
+                },
+                {
+                  "parentTagName": "dev_expressticketing",
+                  "systemTagName": "dev_etfaq",
+                  "displayTagName": "What's New & FAQs",
+                  "systemCode": "dev_etfaq",
+                  "sequenceNumber": "13",
+                  "childSeqNumber": "02"
+                }
+              ]
+            },
+            {
+              "parentTagName": "topic_enterprisesupport20",
+              "systemTagName": "topic_popularsupport",
+              "displayTagName": "Popular Support",
+              "systemCode": "topic_popularsupport",
+              "sequenceNumber": "07",
+              "childSeqNumber": "02"
+            },
+            {
+              "parentTagName": "topic_enterprisesupport20",
+              "systemTagName": "topic_attpremier",
+              "displayTagName": "AT&T Premier",
+              "systemCode": "topic_attpremier",
+              "sequenceNumber": "08",
+              "childSeqNumber": "03",
+              "children": [
+                {
+                  "parentTagName": "topic_attpremier",
+                  "systemTagName": "topic_getstartede",
+                  "displayTagName": "Get started",
+                  "systemCode": "topic_getstartede",
+                  "sequenceNumber": "14",
+                  "childSeqNumber": "00"
+                },
+                {
+                  "parentTagName": "topic_attpremier",
+                  "systemTagName": "topic_billingaccounts1",
+                  "displayTagName": "Billing",
+                  "systemCode": "topic_billingaccounts1",
+                  "sequenceNumber": "15",
+                  "childSeqNumber": "01"
+                },
+                {
+                  "parentTagName": "topic_attpremier",
+                  "systemTagName": "topic_devicesupport1",
+                  "displayTagName": "Device support",
+                  "systemCode": "topic_devicesupport1",
+                  "sequenceNumber": "16",
+                  "childSeqNumber": "02"
+                },
+                {
+                  "parentTagName": "topic_attpremier",
+                  "systemTagName": "topic_ordersa",
+                  "displayTagName": "Orders",
+                  "systemCode": "topic_ordersa",
+                  "sequenceNumber": "17",
+                  "childSeqNumber": "03"
+                },
+                {
+                  "parentTagName": "topic_attpremier",
+                  "systemTagName": "topic_prreporting",
+                  "displayTagName": "Reporting",
+                  "systemCode": "topic_prreporting",
+                  "sequenceNumber": "18",
+                  "childSeqNumber": "04"
+                },
+                {
+                  "parentTagName": "topic_attpremier",
+                  "systemTagName": "topic_troubleshootrepair1",
+                  "displayTagName": "Troubleshoot & repair",
+                  "systemCode": "topic_troubleshootrepair1",
+                  "sequenceNumber": "19",
+                  "childSeqNumber": "05"
+                }
+              ]
+            },
+            {
+              "parentTagName": "topic_enterprisesupport20",
+              "systemTagName": "topic_product",
+              "displayTagName": "Product Support",
+              "systemCode": "topic_product",
+              "sequenceNumber": "09",
+              "childSeqNumber": "04",
+              "children": [
+                {
+                  "parentTagName": "topic_product",
+                  "systemTagName": "topic_dedicatedinternet",
+                  "displayTagName": "Dedicated Internet",
+                  "systemCode": "topic_dedicatedinternet",
+                  "sequenceNumber": "20",
+                  "childSeqNumber": "00"
+                },
+                {
+                  "parentTagName": "topic_product",
+                  "systemTagName": "topic_ipflexiblereach",
+                  "displayTagName": "IP Flexible Reach",
+                  "systemCode": "topic_ipflexiblereach",
+                  "sequenceNumber": "21",
+                  "childSeqNumber": "01",
+                  "children": [
+                    {
+                      "parentTagName": "topic_ipflexiblereach",
+                      "systemTagName": "topic_ipdepadmin",
+                      "displayTagName": "Department Administrator",
+                      "systemCode": "topic_ipdepadmin",
+                      "sequenceNumber": "00",
+                      "childSeqNumber": "00",
+                      "children": [
+                        {
+                          "parentTagName": "topic_ipdepadmin",
+                          "systemTagName": "topic_ipda_started",
+                          "displayTagName": "Get Started",
+                          "systemCode": "topic_ipda_started",
+                          "sequenceNumber": "00",
+                          "childSeqNumber": "00"
+                        },
+                        {
+                          "parentTagName": "topic_ipdepadmin",
+                          "systemTagName": "topic_ipda_manageusers",
+                          "displayTagName": "Manage Users",
+                          "systemCode": "topic_ipda_manageusers",
+                          "sequenceNumber": "01",
+                          "childSeqNumber": "01"
+                        },
+                        {
+                          "parentTagName": "topic_ipdepadmin",
+                          "systemTagName": "topic_ipda_callfeatures",
+                          "displayTagName": "Call Features",
+                          "systemCode": "topic_ipda_callfeatures",
+                          "sequenceNumber": "02",
+                          "childSeqNumber": "02"
+                        },
+                        {
+                          "parentTagName": "topic_ipdepadmin",
+                          "systemTagName": "topic_ipda_account",
+                          "displayTagName": "Account",
+                          "systemCode": "topic_ipda_account",
+                          "sequenceNumber": "03",
+                          "childSeqNumber": "03"
+                        },
+                        {
+                          "parentTagName": "topic_ipdepadmin",
+                          "systemTagName": "topic_ipda_dial",
+                          "displayTagName": "Dial Restrictions",
+                          "systemCode": "topic_ipda_dial",
+                          "sequenceNumber": "04",
+                          "childSeqNumber": "04"
+                        },
+                        {
+                          "parentTagName": "topic_ipdepadmin",
+                          "systemTagName": "topic_ipda_reports",
+                          "displayTagName": "Reports",
+                          "systemCode": "topic_ipda_reports",
+                          "sequenceNumber": "05",
+                          "childSeqNumber": "05"
+                        }
+                      ]
+                    },
+                    {
+                      "parentTagName": "topic_ipflexiblereach",
+                      "systemTagName": "topic_ipenduser",
+                      "displayTagName": "End User",
+                      "systemCode": "topic_ipenduser",
+                      "sequenceNumber": "01",
+                      "childSeqNumber": "01",
+                      "children": [
+                        {
+                          "parentTagName": "topic_ipenduser",
+                          "systemTagName": "topic_ipeu_start",
+                          "displayTagName": "Get Started",
+                          "systemCode": "topic_ipeu_start",
+                          "sequenceNumber": "06",
+                          "childSeqNumber": "00"
+                        },
+                        {
+                          "parentTagName": "topic_ipenduser",
+                          "systemTagName": "topic_ipeu_account",
+                          "displayTagName": "Manage Account",
+                          "systemCode": "topic_ipeu_account",
+                          "sequenceNumber": "07",
+                          "childSeqNumber": "01"
+                        },
+                        {
+                          "parentTagName": "topic_ipenduser",
+                          "systemTagName": "topic_ipeu_callfeatures",
+                          "displayTagName": "Call Features",
+                          "systemCode": "topic_ipeu_callfeatures",
+                          "sequenceNumber": "08",
+                          "childSeqNumber": "02"
+                        },
+                        {
+                          "parentTagName": "topic_ipenduser",
+                          "systemTagName": "topic_ipeu_schedules",
+                          "displayTagName": "Schedules",
+                          "systemCode": "topic_ipeu_schedules",
+                          "sequenceNumber": "09",
+                          "childSeqNumber": "03"
+                        }
+                      ]
+                    },
+                    {
+                      "parentTagName": "topic_ipflexiblereach",
+                      "systemTagName": "topic_ipentadmin",
+                      "displayTagName": "Enterprise Administrators",
+                      "systemCode": "topic_ipentadmin",
+                      "sequenceNumber": "02",
+                      "childSeqNumber": "02",
+                      "children": [
+                        {
+                          "parentTagName": "topic_ipentadmin",
+                          "systemTagName": "topic_ipea_started",
+                          "displayTagName": "Get Started",
+                          "systemCode": "topic_ipea_started",
+                          "sequenceNumber": "10",
+                          "childSeqNumber": "00"
+                        },
+                        {
+                          "parentTagName": "topic_ipentadmin",
+                          "systemTagName": "topic_ipea_manageusers",
+                          "displayTagName": "Manage Users",
+                          "systemCode": "topic_ipea_manageusers",
+                          "sequenceNumber": "11",
+                          "childSeqNumber": "01"
+                        },
+                        {
+                          "parentTagName": "topic_ipentadmin",
+                          "systemTagName": "topic_ipea_callfeatures",
+                          "displayTagName": "Call Features",
+                          "systemCode": "topic_ipea_callfeatures",
+                          "sequenceNumber": "12",
+                          "childSeqNumber": "02"
+                        },
+                        {
+                          "parentTagName": "topic_ipentadmin",
+                          "systemTagName": "topic_ipea_trunk",
+                          "displayTagName": "Trunk Groups",
+                          "systemCode": "topic_ipea_trunk",
+                          "sequenceNumber": "13",
+                          "childSeqNumber": "03"
+                        },
+                        {
+                          "parentTagName": "topic_ipentadmin",
+                          "systemTagName": "topic_ipea_schedule",
+                          "displayTagName": "Schedules",
+                          "systemCode": "topic_ipea_schedule",
+                          "sequenceNumber": "14",
+                          "childSeqNumber": "04"
+                        },
+                        {
+                          "parentTagName": "topic_ipentadmin",
+                          "systemTagName": "topic_ipea_account",
+                          "displayTagName": "Account",
+                          "systemCode": "topic_ipea_account",
+                          "sequenceNumber": "15",
+                          "childSeqNumber": "05"
+                        },
+                        {
+                          "parentTagName": "topic_ipentadmin",
+                          "systemTagName": "topic_ipea_dial",
+                          "displayTagName": "Dial Restrictions",
+                          "systemCode": "topic_ipea_dial",
+                          "sequenceNumber": "16",
+                          "childSeqNumber": "06"
+                        },
+                        {
+                          "parentTagName": "topic_ipentadmin",
+                          "systemTagName": "topic_ipea_reports",
+                          "displayTagName": "Reports",
+                          "systemCode": "topic_ipea_reports",
+                          "sequenceNumber": "17",
+                          "childSeqNumber": "07"
+                        }
+                      ]
+                    },
+                    {
+                      "parentTagName": "topic_ipflexiblereach",
+                      "systemTagName": "topic_ipgroupadmin",
+                      "displayTagName": "Group Administrator",
+                      "systemCode": "topic_ipgroupadmin",
+                      "sequenceNumber": "03",
+                      "childSeqNumber": "03",
+                      "children": [
+                        {
+                          "parentTagName": "topic_ipgroupadmin",
+                          "systemTagName": "topic_ipga_started",
+                          "displayTagName": "Get Started",
+                          "systemCode": "topic_ipga_started",
+                          "sequenceNumber": "18",
+                          "childSeqNumber": "00"
+                        },
+                        {
+                          "parentTagName": "topic_ipgroupadmin",
+                          "systemTagName": "topic_ipga_manageusers",
+                          "displayTagName": "Manage Users",
+                          "systemCode": "topic_ipga_manageusers",
+                          "sequenceNumber": "19",
+                          "childSeqNumber": "01"
+                        },
+                        {
+                          "parentTagName": "topic_ipgroupadmin",
+                          "systemTagName": "topic_ipga_account",
+                          "displayTagName": "Account",
+                          "systemCode": "topic_ipga_account",
+                          "sequenceNumber": "20",
+                          "childSeqNumber": "02"
+                        },
+                        {
+                          "parentTagName": "topic_ipgroupadmin",
+                          "systemTagName": "topic_ipga_callfeatures",
+                          "displayTagName": "Call Features",
+                          "systemCode": "topic_ipga_callfeatures",
+                          "sequenceNumber": "21",
+                          "childSeqNumber": "03"
+                        },
+                        {
+                          "parentTagName": "topic_ipgroupadmin",
+                          "systemTagName": "topic_ipga_trunk",
+                          "displayTagName": "Trunk Groups",
+                          "systemCode": "topic_ipga_trunk",
+                          "sequenceNumber": "22",
+                          "childSeqNumber": "04"
+                        },
+                        {
+                          "parentTagName": "topic_ipgroupadmin",
+                          "systemTagName": "topic_ipga_dial",
+                          "displayTagName": "Dial Restrictions",
+                          "systemCode": "topic_ipga_dial",
+                          "sequenceNumber": "23",
+                          "childSeqNumber": "05"
+                        },
+                        {
+                          "parentTagName": "topic_ipgroupadmin",
+                          "systemTagName": "topic_ipga_schedules",
+                          "displayTagName": "Schedules",
+                          "systemCode": "topic_ipga_schedules",
+                          "sequenceNumber": "24",
+                          "childSeqNumber": "06"
+                        },
+                        {
+                          "parentTagName": "topic_ipgroupadmin",
+                          "systemTagName": "topic_ipga_reports",
+                          "displayTagName": "Reports",
+                          "systemCode": "topic_ipga_reports",
+                          "sequenceNumber": "25",
+                          "childSeqNumber": "07"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "parentTagName": "topic_product",
+                  "systemTagName": "topic_avpn",
+                  "displayTagName": "Virtual Private Network",
+                  "systemCode": "topic_avpn",
+                  "sequenceNumber": "22",
+                  "childSeqNumber": "02"
+                }
+              ]
+            },
+            {
+              "parentTagName": "topic_enterprisesupport20",
+              "systemTagName": "topic_wirelessdevice",
+              "displayTagName": "Wireless Device Support",
+              "systemCode": "topic_wirelessdevice",
+              "sequenceNumber": "10",
+              "childSeqNumber": "05"
+            }
+          ]
+        }
+      ]
+    }
+  }
