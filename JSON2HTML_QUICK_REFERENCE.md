@@ -54,4 +54,5 @@ Visit: `https://main--att-demo--ak8458.aem.page/support/supportcenter/000096620`
 ## Files
 
 - Template: `templates/support-center.html`
+- **Architecture & Data Flow**: `JSON2HTML_ARCHITECTURE.md`
 - Full Documentation: `JSON2HTML_IMPLEMENTATION.md`

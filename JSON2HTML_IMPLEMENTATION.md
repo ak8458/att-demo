@@ -412,6 +412,7 @@ This implementation provides:
 ## Files Created
 
 - `templates/support-center.html` - Mustache template for JSON transformation
+- `JSON2HTML_ARCHITECTURE.md` - High-level architecture and data flow diagram
 - `JSON2HTML_IMPLEMENTATION.md` - This documentation file
 
 ## References

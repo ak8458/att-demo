@@ -1,0 +1,52 @@
+POST https://json2html.adobeaem.workers.dev/config/ak8458/att-demo/main
+Authorization: token eyJhbGciOiJSUzI1NiIsImtpZCI6Ijdzb2k4N3pkb3NJRnc4b19fbVR5a082QlVRNEZBVGhjaHlyNGZqY1dSbWcifQ.eyJlbWFpbCI6ImFrc2hheXBAYWRvYmUuY29tIiwibmFtZSI6IkFrc2hheSBQYXRpbCIsInVzZXJfaWQiOiI0MUEyMEMyNzYzNDYwREMyMEE0OTVGQzlAODIxYjFmNzg2MzFjMGNlZDQ5NWM1Ny5lIiwiaW1zVG9rZW4iOiJleUpoYkdjaU9pSlNVekkxTmlJc0luZzFkU0k2SW1sdGMxOXVZVEV0YTJWNUxXRjBMVEV1WTJWeUlpd2lhMmxrSWpvaWFXMXpYMjVoTVMxclpYa3RZWFF0TVNJc0ltbDBkQ0k2SW1GMEluMC5leUpwWkNJNklqRTNOekEyTmpjNE5qWTVOalZmWW1FeVlUUTROalV0WkRrNU1pMDBPRE0zTFRsaE1qQXRaV000WVRKak9UbG1aR0kyWDNWbE1TSXNJblI1Y0dVaU9pSmhZMk5sYzNOZmRHOXJaVzRpTENKamJHbGxiblJmYVdRaU9pSm9aV3hwZUMxaFpHMXBiaUlzSW5WelpYSmZhV1FpT2lJME1VRXlNRU15TnpZek5EWXdSRU15TUVFME9UVkdRemxBT0RJeFlqRm1OemcyTXpGak1HTmxaRFE1TldNMU55NWxJaXdpYzNSaGRHVWlPaUpsZVVwb1lrZGphVTlwU25WaU1qVnNTVzR3TG1WNVNuZGpiVGwwWTBoUmFVOXBTblZpTWpWc1NXbDNhVnBZYURCYVZ6VjZZVmM1ZFZOWFVXbFBhVXB3V2pKMGRGcEhPWFJaTW1SMldsZEtjR0ZZUW1oaFYxcHZZbGhDYldGdGFHbGhiVTVxV2pKa2RHSkRTWE5KYlRsNVdubEpOa2x0Um5KUFJGRXhUME5KYzBsdVRuQmtSMVZwVDJsS2FHUklVWFJhUjFaMFlubEtPUzRpTENKaGN5STZJbWx0Y3kxdVlURWlMQ0poWVY5cFpDSTZJak00T0VZeE5URTVOak0wTmpCRVF6RXdRVFE1TlVWR09VQmhaRzlpWlM1amIyMGlMQ0pqZEhBaU9qQXNJbVpuSWpvaU1rZEhTVkUzVUZSV1RFMDFRVVJWUzBaQlVWWkxXRUZCUXpRaUxDSnphV1FpT2lJeE56WTROREE1TVRFMU5qSTVYMkU1TURGa09XTTJMV0ZqT1dFdE5HTTBNQzA0WmpreUxUVTROemhpT0Rsak5qSTFNRjkxZHpJaUxDSnlkR2xrSWpvaU1UYzNNRFkyTnpnMk5qazJObDlpWlRFeU1URTFPUzAyTjJJeExUUXhNakV0T0Rsa015MDVNRGsyWXpOak1tRXpaRGxmZFdVeElpd2liVzlwSWpvaVl6TmpaREl3Tm1NaUxDSndZbUVpT2lKUFVrY3NUV1ZrVTJWalRtOUZWaXhNYjNkVFpXTWlMQ0p5ZEdWaElqb2lNVGMzTVRnM056UTJOamsyTmlJc0ltVjRjR2x5WlhOZmFXNGlPaUk0TmpRd01EQXdNQ0lzSW5OamIzQmxJam9pUVdSdlltVkpSQ3h2Y0dWdWFXUXNjSEp2Wm1sc1pTeGxiV0ZwYkN4aFlpNXRZVzVoWjJVc1oyNWhkaXh2Y21jdWNtVmhaQ3h5WldGa1gyOXlaMkZ1YVhwaGRHbHZibk1zYzJWemMybHZiaXhoWkdScGRHbHZibUZzWDJsdVptOHViM2R1WlhKUGNtY3NZV1JrYVhScGIyNWhiRjlwYm1adkxuQnliMnBsWTNSbFpGQnliMlIxWTNSRGIyNTBaWGgwTEdGbGJTNW1jbTl1ZEdWdVpDNWhiR3dpTENKamNtVmhkR1ZrWDJGMElqb2lNVGMzTURZMk56ZzJOamsyTlNKOS5IZTFBTGhwVS1RYzd6aWRCMVY4RG1hX3o5T3hSU1ltSHY2dUp1Q3ZFc3lTWkdwSkpROU52eG03SGtUaUtKSGhTSWEtWHJBRS00Rms4NzZ2VF9IbWx0ZEZRVXFiT3dpTHVHeTVRckVERzN5VUdYVGlleTNqWFRIMmVoVzRzdUZHcWFzSHVGekExQ1Y1SjZqeXpITFRZR3RtdkxiMnpicTMtYl9rWTczOVRJeUhOYlgxYnVCWnJFc2lOZGMyTm9ERTRNaG5oLWVxVy1FRXQ0NG41WmJvcFc4QWNOTjMzenFnUVhQVDlSUl9VbFZWSlBMNEEtdlVHLXhsUnFBeVJkT1lXVVNrbXZXZjNRc3phSi1aSlNqWmdRa0VidWljdl9TV3VLTGg3V1JlOUlYX2FLR3ppODlFTjVCY2k2TGxWR0FwNmczUWItUlFPZDJ0SXRnam94dEZtVkEiLCJleHRlbnNpb25JZCI6Imlna21kb21jZ29lYmlpcGFpZmhtcGZqaGJqY2NnZ21sIiwiaWF0IjoxNzcwNjY3ODY2LCJpc3MiOiJodHRwczovL2FkbWluLmhseC5wYWdlLyIsInN1YiI6IiovKiIsImF1ZCI6IjgzYTM2MzU1LWFkMTctNGVkMC04NzAxLWU5OWEzMDIwZjg2YSIsImV4cCI6MTc3MDc1NDI2Nn0.NiearQL8NwlDd8fFmmqlMbXn4xtfTIAUfbQwV2bujlADeM20fctHQn6uROeTW5_ipugXjjseyVoAUQ27XCRQ5EHEUXQ6AQ1mxdhsUYy7OTisdY66nEz8mUQniHdOeuhBqTKd4PNqSAeZ2iIpPTD1qVt_UCBYrGFYMfjODmsuwNC4IMvEP8b30B4-KukMiWznJN3wPXa5gwdapjdVNprnqSy0HrlDMEnv5XzqJ159DJol7ntJurhDBMUerAkyoB8x3KMho0NS8pLTmXZLy7jEbFPvURQTfg23FZnV3slCD8V_I2jcr1r9WG4PfmordZDyfvkoquasz5YjDZR8GuenqQ
+Content-Type: application/json
+
+[
+    {
+      "path": "/support/supportcenter/",
+      "endpoint": "https://services.att.com/kmservices/v2/contents/{{id}}?app-id=gmarket",
+      "regex": "/[^/]+$/",
+      "template": "/templates/support-center.html",
+      "headers": {
+        "Accept": "application/json",
+        "Content-Type": "application/json"
+      }
+    }
+]
+
+
+### Token request – run this first; response body is used for login
+# @name getToken
+POST https://publish-p101617-e956337.adobeaemcloud.com/api/invita/session/generate_login_token?login_method=username
+Accept: */*
+Origin: https://publish-p101617-e956337.adobeaemcloud.com
+Referer: https://publish-p101617-e956337.adobeaemcloud.com/sign-in.html
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryFk2w1RSpREd9ihz3
+Cookie: mbox=session#9de5f0a12415454a9f4c64fd996c1091#1770930763; at_check=true; affinity="c3cde7845b8ef8b3"; wcsid=xUTcHGQw1mfeEuzm7S3fB0X0A0eErF0i; hblid=FE0YqpyvGKu0jILD7S3fB0X0aBAorzi0; _oklv=1770928902610%2CxUTcHGQw1mfeEuzm7S3fB0X0A0eErF0i; olfsk=olfsk5179703320620268; _ok=7338-734-10-3287; oblKeepSignedIn=true; session=h53g6slvo5ioke777ppcf2bb5a
+
+------WebKitFormBoundaryFk2w1RSpREd9ihz3--
+
+
+### Login request – uses login_token from token request response
+# Expects getToken response body to contain a field "login_token" or "token"
+POST https://publish-p101617-e956337.adobeaemcloud.com/api/invita/session/login
+Accept: */*
+Origin: https://publish-p101617-e956337.adobeaemcloud.com
+Referer: https://publish-p101617-e956337.adobeaemcloud.com/sign-in.html
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryVLvYWJTIIWbAKKuW
+Cookie: mbox=session#9de5f0a12415454a9f4c64fd996c1091#1770930763; at_check=true; affinity="c3cde7845b8ef8b3"; wcsid=xUTcHGQw1mfeEuzm7S3fB0X0A0eErF0i; hblid=FE0YqpyvGKu0jILD7S3fB0X0aBAorzi0; _oklv=1770928902610%2CxUTcHGQw1mfeEuzm7S3fB0X0A0eErF0i; olfsk=olfsk5179703320620268; _ok=7338-734-10-3287; oblKeepSignedIn=true; session=h53g6slvo5ioke777ppcf2bb5a
+
+------WebKitFormBoundaryVLvYWJTIIWbAKKuW
+Content-Disposition: form-data; name="login_token"
+
+{{getToken.response.body.login_token}}
+------WebKitFormBoundaryVLvYWJTIIWbAKKuW
+Content-Disposition: form-data; name="username"
+
+akshayp@adobe.com
+------WebKitFormBoundaryVLvYWJTIIWbAKKuW
+Content-Disposition: form-data; name="password"
+
+Adobe@max26
+------WebKitFormBoundaryVLvYWJTIIWbAKKuW--
